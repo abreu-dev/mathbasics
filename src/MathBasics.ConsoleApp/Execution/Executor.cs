@@ -1,4 +1,6 @@
-﻿namespace MathBasics.ConsoleApp.Execution
+﻿using MathBasics.ConsoleApp.Entities;
+
+namespace MathBasics.ConsoleApp.Execution
 {
     public static class Executor
     {
