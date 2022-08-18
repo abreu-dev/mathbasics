@@ -7,9 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F034E60A-D33
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1DE5B4A6-36B6-4726-A401-B85EF6665B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathBasics.Domain", "src\MathBasics.Domain\MathBasics.Domain.csproj", "{72A464CB-8D38-4FE3-8FDD-FA057B12CCD9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathBasics.ConsoleApp", "src\MathBasics.ConsoleApp\MathBasics.ConsoleApp.csproj", "{F8F19874-8BCD-4EA0-89BB-2683327C6DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathBasics.ConsoleApp", "src\MathBasics.ConsoleApp\MathBasics.ConsoleApp.csproj", "{F8F19874-8BCD-4EA0-89BB-2683327C6DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72A464CB-8D38-4FE3-8FDD-FA057B12CCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72A464CB-8D38-4FE3-8FDD-FA057B12CCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72A464CB-8D38-4FE3-8FDD-FA057B12CCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72A464CB-8D38-4FE3-8FDD-FA057B12CCD9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8F19874-8BCD-4EA0-89BB-2683327C6DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8F19874-8BCD-4EA0-89BB-2683327C6DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F19874-8BCD-4EA0-89BB-2683327C6DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,7 +24,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{72A464CB-8D38-4FE3-8FDD-FA057B12CCD9} = {F034E60A-D33E-4A17-8378-860846B94A6A}
 		{F8F19874-8BCD-4EA0-89BB-2683327C6DAE} = {F034E60A-D33E-4A17-8378-860846B94A6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
